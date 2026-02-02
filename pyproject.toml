@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "woodcv"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+    "scikit-image",
+    "matplotlib",
+    "k3d",
+    "tqdm",
+    "jaxtyping",
+    "rich",
+    "ipywidgets",
+    "pandas"
+]
+requires-python = ">=3.11"
+authors = [
+  {name = "Jannik Stebani", email = "jannik.stebani@uni-wuerzburg.de"},
+]
+description = "Computer vision tools for wood anatomical analyses."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["wood", "computer vision", "anatomy", "analysis", "computed tomography", "imaging"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
